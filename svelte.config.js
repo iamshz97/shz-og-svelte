@@ -14,6 +14,9 @@ const config = {
 		// adapter: adapter()
 		adapter: azure({
 			apiDir: './build/server',
+			esbuildOptions: {
+				external: ['@resvg/resvg-js']
+			}
 		})
 	}
 };
