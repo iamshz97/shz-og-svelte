@@ -2,4 +2,11 @@
   Generate og-image from Azure SWA + Azure Managed Functions
 </h1>
 
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1 class="text-3xl">
+	👇👇👇👇
+</h1>
+
+<a class="text-3xl text-blue-600 underline" href="/generate-image" target="_blank">Click here to generate an image</a>
+
+<p>✅ Works when you run via <span class="text-green-950 font-extrabold">npm run build && xcopy /E /I "function-configs" ".\build\server" && npm run dev</span></p>
+<p>❌ Fails when you run via swa run</p>
